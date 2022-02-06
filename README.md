@@ -6,3 +6,7 @@
 
 3. Run "merge-stamps.bat" to merge all stamps into the file "stamps.jpg"
 	- all processed pdf files are saved in directory "processed" 
+
+
+## TO-DO'S: 
+- Merge just the right amount of stamps into on file 
