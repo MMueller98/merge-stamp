@@ -19,6 +19,7 @@ ECHO:
 magick montage -verbose -density 300x300 -mode concatenate -tile 2x -crop 1200x875+0+0 *.png ../stamps.png
 
 DEL *.png
+MOVE *.pdf ../Processed
 cd ..
 
 magick convert stamps.png -resize 1240x1753 -units PixelsPerInch -density 150x150 -page a4 multipage.pdf
